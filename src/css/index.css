@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(48, 66, 100);
+}
+
+header{
+    padding: 75px;
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    color: rgba(211, 211, 104, 0.753);
+    font-family: "Twinkle Star", cursive;
+}
+
+.main_container{
+    position: relative;
+    display: flex;
+    padding: 25px;
+    gap: 10vw;
+    justify-content: center;
+}
+
+.containers{
+    height: 45vh;
+    width: 35vw;
+    padding: 2.5vw 0.5vh;
+    position: relative;
+    border-radius: 25px;
+    border: 5px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.containers > h1{
+    font-size: 55px;
+}
+
+.forms{
+    display: relative;
+    padding-top: 5em ;
+    font-size: 15px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form > input{
+    background-color: rgb(141, 143, 146);
+    padding: 15px;
+    width: 50%;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 5px 3px 20px hsla(0, 0%, 72%, 0.644);
+}
+
+.form > input:hover{
+    background-color: rgb(141, 143, 146);
+    padding: 15px;
+    width: 50%;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 2px 1px 10px hsl(0, 0%, 99%);
+}
+
+.form > button{
+    background-color: hsla(34, 78%, 91%, 0.842);
+    padding: 15px;
+    width: 35%;
+    border-radius: 30px;
+}
+
+.form > button:hover{
+    background-color: hsla(33, 78%, 91%, 0.548);
+    padding: 15px;
+    width: 35%;
+    border-radius: 30px;
+    box-shadow: 8px 3px 10px hsl(0, 0%, 99%);
+}
+
+#moon{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    opacity: 0.7;
+}
+
+.stars{
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: 33.5vw;
+    opacity: 0.8;
+}
+
+
+.stars1{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 7vh;
+    right: 31.75vw;
+    opacity: 0.8;
+}
+
+.stars2{
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: 35vw;
+    opacity: 0.8;
+}
+
+.stars3{
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: 35vw;
+    opacity: 0.8;
+}
